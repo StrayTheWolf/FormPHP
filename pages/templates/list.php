@@ -1,6 +1,6 @@
 <?php
 // определеяем директорию
-$dir = __DIR__ . './../files';
+$dir = __DIR__ . '/../../files/';
 
 //массив для хранения файлов после получения их по имени
 $arr = [];
@@ -13,6 +13,6 @@ $names = array_diff($files, [".", ".."]);
 
 //проходим циклом по именам, кладем в переменную содержимое файла в виде строки, передаем в новый элемент массива эту строку, декодированую в массив
 foreach ($names as $name) {
-    $content = file_get_contents(__DIR__ . '../files/' . $name);
+    $content = file_get_contents(__DIR__ . '/../../files/' . $name);
     $arr[] = json_decode($content, true);
 }

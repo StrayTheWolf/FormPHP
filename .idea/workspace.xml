@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7633f36-5713-4759-aaa8-c9f70b9b1fe3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/templates/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/templates/form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/templates/list.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/templates/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/list.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +48,7 @@
       <updated>1621938591320</updated>
       <workItem from="1621938592404" duration="34039000" />
       <workItem from="1622097449863" duration="596000" />
-      <workItem from="1622448036120" duration="15075000" />
+      <workItem from="1622448036120" duration="18582000" />
     </task>
     <servers />
   </component>
