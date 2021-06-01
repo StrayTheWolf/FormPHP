@@ -1,3 +1,2 @@
-<h1>Form write, send, list example</h1>
-<?php include 'templates/menu.php' ?>
-<?php include 'templates/footer.php' ?>
+<h1>About page</h1>
+<p>This an exemple of write, send, and show form list <br> written in pure PHP with bootstrap</p>

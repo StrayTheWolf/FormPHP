@@ -1,10 +1,10 @@
 <h1>List page</h1>
-<?php include 'templates/menu.php' ?>
-<?php include 'templates/list.php' ?>
-<ul>
-    <?php foreach ($arr as $item): ?>
+<p>List of all users</p>
+
+<ul class="nav flex-column">
+    <?php foreach ($_SESSION['list'] as $item): ?>
         <br>
-        <li>
+        <li class="nav-item mb-3 text-start border border-info border-2 rounded p-2">
             Name:
             <?= $item['name'] ?>
             <br>

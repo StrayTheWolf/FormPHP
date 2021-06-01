@@ -1,19 +1,20 @@
-<h1>Form Page</h1>
-<?php include 'templates/menu.php' ?>
-<?php include 'templates/form.php' ?>
+<h1>Form page</h1>
+<p>Enter data and click submit</p>
 
-<form method="post">
-    <div>
+<form action="/handler" method="post">
+    <div class="mb-3">
         <label>
             Name:
-            <input type="text" name="name" style="margin: 5px">
+            <input type="text" name="name" class="form-control">
+            <div class="form-text  mb-3">Enter your full name.</div>
         </label>
     </div>
 
     <div>
         <label>
             Age:
-            <input type="number" name="age" style="margin: 5px">
+            <input type="number" name="age" class="form-control">
+            <div class="form-text  mb-3">Enter your age.</div>
         </label>
     </div>
 
@@ -21,12 +22,10 @@
     <div>
         <label>
             Email:
-            <input type="email" name="email" style="margin: 5px">
+            <input type="email" name="email" class="form-control">
+            <div class="form-text  mb-3">Enter your email address.</div>
         </label>
     </div>
 
-    <button>Submit</button>
+    <button class="btn btn-outline-primary mb-3">Submit</button>
 </form>
-
-<?php include 'templates/footer.php' ?>
-
