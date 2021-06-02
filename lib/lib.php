@@ -1,6 +1,11 @@
 <?php
 
-function template($template = 'index', $data = [])
+declare(strict_types=1);
+
+include 'Router.php';
+include 'Page.php';
+
+function view(string $template = 'index', array $data = [])
 {
     extract($data);
 

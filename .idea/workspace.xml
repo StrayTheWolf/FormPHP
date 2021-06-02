@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7633f36-5713-4759-aaa8-c9f70b9b1fe3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/list.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/menu.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +31,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -57,11 +51,16 @@
       <workItem from="1621938592404" duration="34039000" />
       <workItem from="1622097449863" duration="596000" />
       <workItem from="1622448036120" duration="29565000" />
-      <workItem from="1622533928400" duration="15429000" />
+      <workItem from="1622533928400" duration="19563000" />
+      <workItem from="1622623127670" duration="6284000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

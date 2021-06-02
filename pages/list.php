@@ -2,7 +2,7 @@
 <p>List of all users</p>
 
 <ul class="nav flex-column">
-    <?php foreach ($_SESSION['list'] as $item): ?>
+    <?php foreach ($list as $item): ?>
         <br>
         <li class="nav-item mb-3 text-start border border-info border-2 rounded p-2">
             Name:
