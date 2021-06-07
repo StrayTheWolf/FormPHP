@@ -34,7 +34,8 @@ class Page
 
     public function handler()
     {
-        file_put_contents('files/' . microtime() . '.txt', json_encode($_POST));
+        $saveFolder = __DIR__ . '../../files/';
+        file_put_contents($saveFolder . microtime() . '.txt', json_encode($_POST));
         $_SESSION['message'] = 'Form successfully send';
         header('Location: /');
         exit;
@@ -42,6 +43,6 @@ class Page
 
     public function e404()
     {
-        return view('404' ,['title' => '404' , 'subtitle' => 'This is 404 page']);
+        return view('404' ,['title' => '404' , 'subtitle' => '']);
     }
 }

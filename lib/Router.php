@@ -17,15 +17,22 @@ class Router
         self::$postRoutes[trim($path, '/')] = $action;
     }
 
-    public static function run(): mixed
+    public static function run($path)
     {
+       //print_r(self::$getRoutes);
+      // print_r(self::$postRoutes);
 
-        if ($_SERVER['REQUEST_METHOD'] = 'GET') {
-           return self::handleRoutes(self::$getRoutes);
+        // в проверке смотрим в есть ли совпадение между именем пути и ключем в массиве с путями, если есть переход по адресу, если нет совпадения то страница 404
+        if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+            if (in_array($path, array_keys(self::$getRoutes))) {
+                return self::handleRoutes(self::$getRoutes);
+            }
+            header('Location: /404');
         }
 
-        if ($_SERVER['REQUEST_METHOD'] = 'POST') {
-           return self::handleRoutes(self::$postRoutes);
+
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            return self::handleRoutes(self::$postRoutes);
         }
     }
 
@@ -33,9 +40,15 @@ class Router
     {
         $currentUrl = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
 
+
         foreach ($routes as $routeUrl => $action) {
+
             if ($routeUrl == $currentUrl) {
                 $action = explode('@', $action);
+                print_r($action[1]);
+
+
+
                 $handler = new $action[0];
                 return $handler->{$action[1]}();
             }

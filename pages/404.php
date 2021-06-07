@@ -1,2 +1,2 @@
-<h1>Not found</h1>
-<p>404</p>
+<h1>Error 404</h1>
+<p>Page not found, or incorrect address, check address</p>
