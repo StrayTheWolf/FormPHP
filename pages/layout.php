@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 </head>
-<body class="d-flex align-items-center flex-column w-20 p-3 text-center justify-content-between" style="background-color: lightcyan; height: 100vh">
+<body class="d-flex align-items-center flex-column w-20 p-3 text-center justify-content-between" style="background-color: lightcyan; height: 100vh;">
 
 <header>
     <nav>

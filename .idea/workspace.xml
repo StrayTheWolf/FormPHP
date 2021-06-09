@@ -3,15 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c7633f36-5713-4759-aaa8-c9f70b9b1fe3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/0.05516600 1622500233.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/0.16184300 1622546491.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/0.17045200 1622546600.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/0.55949200 1622545519.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/0.76472800 1621962896.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/0.87854900 1621962883.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/0.95821900 1621962887.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/0.98224400 1622026661.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/0.99715500 1622025060.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PhpstormProjects\php\form\lib\DB" />
       <recent name="C:\Users\Admin\PhpstormProjects\php\form\pages" />
       <recent name="C:\Users\Admin\PhpstormProjects\php\form" />
     </key>
@@ -65,7 +69,7 @@
       <workItem from="1622792635212" duration="152000" />
       <workItem from="1622792808109" duration="19721000" />
       <workItem from="1622880650188" duration="6265000" />
-      <workItem from="1622979188843" duration="7257000" />
+      <workItem from="1622979188843" duration="44796000" />
     </task>
     <servers />
   </component>

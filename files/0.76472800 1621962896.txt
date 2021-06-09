@@ -1,1 +1,0 @@
-{"name":"Bart","age":"10","email":"bart@springfield.net"}

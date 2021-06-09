@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+include 'DB/readBase.php';
+include 'DB/writeToBase.php';
+
+
 class Page
 {
     public function index()
@@ -21,24 +25,12 @@ class Page
 
     public function list()
     {
-        $dir = __DIR__ . '../../files/';
-        $arr = [];
-        $files = scandir($dir);
-        $names = array_diff($files, [".", ".."]);
-        foreach ($names as $name) {
-            $content = file_get_contents(__DIR__ . '../../files/' . $name);
-            $arr[] = json_decode($content, true);
-        }
-        return view('list', ['title' => 'List', 'subtitle' => '', 'list' => $arr]);
+        return view('list', ['title' => 'List', 'subtitle' => '', 'list' => readBase()]);
     }
 
     public function handler()
     {
-        $saveFolder = __DIR__ . '../../files/';
-        file_put_contents($saveFolder . microtime() . '.txt', json_encode($_POST));
-        $_SESSION['message'] = 'Form successfully send';
-        header('Location: /');
-        exit;
+        writeToBase();
     }
 
     public function e404()
